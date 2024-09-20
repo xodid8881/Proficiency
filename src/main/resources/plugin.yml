@@ -1,0 +1,20 @@
+name: Proficiency
+version: '${version}'
+main: org.hwabeag.proficiency.Proficiency
+api-version: '1.20'
+
+commands:
+  숙련도:
+    description: 숙련도 명령어 입니다..
+    usage: /숙련도
+    aliases: [숙련, ㅅㄹㄷ, ㅅㄹ]
+  숙련도설정:
+    description: 숙련도설정 명령어 입니다..
+    usage: /숙련도설정
+    aliases: [숙련설정, ㅅㄹㄷㅅㅈ, ㅅㄹㅅㅈ]
+  cookingadd:
+    description: 요리 숙련도 경험치 설정 명령어 입니다..
+    usage: /cookingadd
+    aliases: [cookingadd, 요리숙련도]
+
+depend: [PlaceholderAPI]
